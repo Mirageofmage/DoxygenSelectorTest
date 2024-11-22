@@ -1,0 +1,14 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title="The application entry point." alt="" coords="5,55,60,80"/>
+<area shape="rect" id="Node000002" href="$group__bootloader.html#ga28041a14201e4148b7049e07b8dd94f2" title="Enables write protection over bootloader." alt="" coords="137,5,233,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,56,107,39,129,32,131,37,109,45,61,61"/>
+<area shape="rect" id="Node000003" href="$group__bootloader.html#gaf09427c1c1dee1379d9ed5ebbbf1d951" title="Transfer control of microcontroller to user application after deinitializing peripherals and moving r..." alt="" coords="114,55,257,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="60,65,100,65,100,70,60,70"/>
+<area shape="rect" id="Node000006" href="$main_8c.html#a70af21c671abfcc773614a9a4f63d920" title="System Clock Configuration." alt="" coords="108,104,263,129"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="61,73,133,97,132,102,59,78"/>
+<area shape="rect" id="Node000004" href="$group__bootloader.html#gab443f78458934cebe972a6d1716e87a4" title="Calculates a checksum across application code." alt="" coords="311,55,463,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="257,65,297,65,297,70,257,70"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#a1730ffe1e560465665eb47d9264826f9" title="This function is executed in case of error occurrence." alt="" coords="331,104,442,129"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="238,77,321,98,320,103,237,83"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="263,114,317,114,317,119,263,119"/>
+</map>

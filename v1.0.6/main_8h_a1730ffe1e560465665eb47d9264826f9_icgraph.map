@@ -1,0 +1,17 @@
+<map id="Error_Handler" name="Error_Handler">
+<area shape="rect" id="Node000001" title="This function is executed in case of error occurrence." alt="" coords="497,107,608,132"/>
+<area shape="rect" id="Node000002" href="$group__bootloader.html#gad8187b51d3dfb969250f8df9196df1fb" title="Displays requested data over the CAN network." alt="" coords="293,5,428,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="523,101,488,76,448,52,402,33,404,28,451,48,491,72,526,96"/>
+<area shape="rect" id="Node000003" href="$group__FESCAN.html#ga7368d39e78009c017d6f81ccf33b9b2c" title="CAN message callback that handles communication with the network." alt="" coords="5,23,224,63"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="490,106,449,97,333,76,224,60,225,55,334,71,450,91,491,101"/>
+<area shape="rect" id="Node000004" href="$group__FESCAN.html#ga5f50dd09a65bf48c31926f5aa9b162e7" title="CAN message callback that handles errors with communication." alt="" coords="272,107,449,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="483,122,450,122,450,117,483,117"/>
+<area shape="rect" id="Node000005" href="$group__bootloader.html#gaf09427c1c1dee1379d9ed5ebbbf1d951" title="Transfer control of microcontroller to user application after deinitializing peripherals and moving r..." alt="" coords="289,156,432,181"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="490,138,412,158,411,153,489,133"/>
+<area shape="rect" id="Node000007" href="$main_8c.html#a70af21c671abfcc773614a9a4f63d920" title="System Clock Configuration." alt="" coords="283,205,438,231"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="528,143,493,171,451,196,421,208,419,203,448,192,490,166,525,139"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="280,29,224,35,224,29,279,24"/>
+<area shape="rect" id="Node000006" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point." alt="" coords="87,180,142,205"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="276,180,142,193,142,187,275,174"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="269,211,142,198,142,193,269,206"/>
+</map>
