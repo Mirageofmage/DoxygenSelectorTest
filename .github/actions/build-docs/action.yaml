@@ -27,7 +27,8 @@ inputs:
     description: 'Path of the Doxygen configuration file'
     required: true
     default: "Doxyfile"
-  docs_version: 'Version to show in Doxygen'
+  docs_version: 
+    description: 'Version to show in Doxygen'
     required: false
     default: ''
 
