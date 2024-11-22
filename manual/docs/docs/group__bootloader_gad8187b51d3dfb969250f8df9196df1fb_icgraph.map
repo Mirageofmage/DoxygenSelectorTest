@@ -1,0 +1,5 @@
+<map id="can_display_data" name="can_display_data">
+<area shape="rect" id="Node000001" title="Displays requested data over the CAN network." alt="" coords="262,13,384,40"/>
+<area shape="rect" id="Node000002" href="$group___f_e_s_c_a_n.html#ga7368d39e78009c017d6f81ccf33b9b2c" title="CAN message callback that handles communication with the network." alt="" coords="5,5,214,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="246,29,214,29,214,24,246,24"/>
+</map>

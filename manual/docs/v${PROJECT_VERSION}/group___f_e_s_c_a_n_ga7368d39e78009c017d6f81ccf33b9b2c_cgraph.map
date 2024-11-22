@@ -1,0 +1,22 @@
+<map id="HAL_CAN_RxFifo0MsgPendingCallback" name="HAL_CAN_RxFifo0MsgPendingCallback">
+<area shape="rect" id="Node000001" title="CAN message callback that handles communication with the network." alt="" coords="5,175,214,217"/>
+<area shape="rect" id="Node000002" href="$group__bootloader.html#ga890ef1b05a91a07f38051b4c3bdd668a" title="Checks for first blank location of flash between two addresses, and returns that location,..." alt="" coords="270,5,400,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,173,180,109,218,73,260,42,269,37,272,41,263,46,222,77,184,112,129,176"/>
+<area shape="rect" id="Node000003" href="$group__bootloader.html#gab443f78458934cebe972a6d1716e87a4" title="Calculates a checksum across application code." alt="" coords="265,56,405,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="141,172,196,137,260,99,285,87,287,92,263,104,199,141,144,177"/>
+<area shape="rect" id="Node000004" href="$group__bootloader.html#gad8187b51d3dfb969250f8df9196df1fb" title="Displays requested data over the CAN network." alt="" coords="274,157,396,184"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="213,182,258,177,259,182,214,187"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#a1730ffe1e560465665eb47d9264826f9" title="This function is executed in case of error occurrence." alt="" coords="473,132,574,159"/>
+<area shape="poly" id="edge10_Node000001_Node000005" title=" " alt="" coords="162,171,209,155,261,143,312,137,364,134,458,137,457,142,364,140,313,142,262,148,211,160,163,177"/>
+<area shape="rect" id="Node000006" href="$group___f_e_s_c_a_n.html#ga59adc6f79f3c458db60551ab6321c56a" title="Configure CAN message to send when SELECT_MEM_PAGE is used." alt="" coords="456,208,591,235"/>
+<area shape="poly" id="edge11_Node000001_Node000006" title=" " alt="" coords="214,200,441,214,440,219,214,205"/>
+<area shape="rect" id="Node000007" href="$group__bootloader.html#gaa8136d1a1b639b30111754854bb8a176" title="Initializes global address range from received CAN message in preparation for can_display_data." alt="" coords="262,259,408,285"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="176,215,279,251,278,256,174,221"/>
+<area shape="rect" id="Node000008" href="$group__bootloader.html#ga46b61e07cb20a56021eb804fa42f440d" title="Initializes global address range from received CAN message in preparation for can_write_data." alt="" coords="268,309,402,336"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="140,216,195,255,263,295,275,301,273,306,260,300,192,259,137,220"/>
+<area shape="rect" id="Node000009" href="$group__bootloader.html#gafe3ce10f899a0f3e1903f9b8495e152d" title="Copy data to write to flash into a buffer (max of 64 bytes). When nb_byte_to_write reaches 0,..." alt="" coords="280,360,390,387"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="129,216,184,280,222,315,263,346,272,351,269,355,260,350,218,319,180,283,125,219"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="396,160,458,151,458,157,397,165"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="388,182,457,201,456,206,387,187"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="380,306,407,295,452,269,491,242,494,246,455,273,409,300,382,311"/>
+</map>
