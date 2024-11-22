@@ -30,7 +30,7 @@ inputs:
   docs_version: 
     description: 'Version to show in Doxygen'
     required: false
-    default: ''
+    default: 'git-main'
 
 outputs:
   version:
