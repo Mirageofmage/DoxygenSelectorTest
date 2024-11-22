@@ -1,9 +1,0 @@
-<map id="calc_app_checksum" name="calc_app_checksum">
-<area shape="rect" id="Node000001" title="Calculates a checksum across application code." alt="" coords="359,43,499,69"/>
-<area shape="rect" id="Node000002" href="$group___f_e_s_c_a_n.html#ga7368d39e78009c017d6f81ccf33b9b2c" title="CAN message callback that handles communication with the network." alt="" coords="103,5,311,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="343,47,311,43,312,38,344,42"/>
-<area shape="rect" id="Node000003" href="$group__bootloader.html#gaf09427c1c1dee1379d9ed5ebbbf1d951" title="Transfer control of microcontroller to user application after deinitializing peripherals and moving r..." alt="" coords="141,72,272,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="344,70,273,79,273,74,343,65"/>
-<area shape="rect" id="Node000004" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point." alt="" coords="5,72,55,99"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="126,88,55,88,55,83,126,83"/>
-</map>

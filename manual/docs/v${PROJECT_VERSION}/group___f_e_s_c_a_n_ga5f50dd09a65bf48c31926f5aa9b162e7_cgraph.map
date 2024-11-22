@@ -1,5 +1,0 @@
-<map id="HAL_CAN_ErrorCallback" name="HAL_CAN_ErrorCallback">
-<area shape="rect" id="Node000001" title="CAN message callback that handles errors with communication." alt="" coords="5,5,175,32"/>
-<area shape="rect" id="Node000002" href="$main_8c.html#a1730ffe1e560465665eb47d9264826f9" title="This function is executed in case of error occurrence." alt="" coords="223,5,324,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,16,207,16,207,21,175,21"/>
-</map>

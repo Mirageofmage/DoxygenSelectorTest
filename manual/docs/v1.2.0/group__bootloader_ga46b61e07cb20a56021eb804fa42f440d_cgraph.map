@@ -1,5 +1,0 @@
-<map id="can_init_write_data" name="can_init_write_data">
-<area shape="rect" id="Node000001" title="Initializes global address range from received CAN message in preparation for can_write_data." alt="" coords="5,5,139,32"/>
-<area shape="rect" id="Node000002" href="$group___f_e_s_c_a_n.html#ga59adc6f79f3c458db60551ab6321c56a" title="Configure CAN message to send when SELECT_MEM_PAGE is used." alt="" coords="187,5,322,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,16,171,16,171,21,139,21"/>
-</map>
