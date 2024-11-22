@@ -42,7 +42,7 @@ $extrastylesheet
     var repoName = window.location.pathname.split('/')[1];
     $.get('/' + repoName + '/version_selector.html', function (data) {
         // Inject version selector HTML into the page
-        $('#testThing').html(data);
+        $('#projectnumber').html(data);
 
         // Event listener to handle version selection
         document.getElementById('versionSelector').addEventListener('change', function () {
