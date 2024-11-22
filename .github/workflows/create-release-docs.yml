@@ -23,6 +23,7 @@ jobs:
           doxygen_version: 1.12.0
           config_file: manual/Doxyfile
           build_dir: '.'
+          docs_version: ${{ github.event.release.tag_name }}
 
       - name: Update redirect HTML
         uses: ./.github/actions/update-redirect-page
