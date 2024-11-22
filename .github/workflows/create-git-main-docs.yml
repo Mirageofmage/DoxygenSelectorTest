@@ -19,7 +19,6 @@ jobs:
         id: build-docs
         uses: ./.github/actions/build-docs
         with:
-          cmake_target: 'doc'
           docs_dir: 'manual/docs'
           destination_dir: git-main
           github_token: ${{ secrets.GITHUB_TOKEN }}

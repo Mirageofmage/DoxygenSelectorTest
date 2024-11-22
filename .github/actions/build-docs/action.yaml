@@ -1,9 +1,6 @@
 name: 'build-docs'
 description: 'Builds documentation using Doxygen'
 inputs:
-  cmake_target:
-    description: 'CMake documentation target'
-    required: true
   docs_dir:
     description: 'Path to documentation dir, relative to build_dir'
     required: true
