@@ -1,0 +1,5 @@
+<map id="can_init_display_data" name="can_init_display_data">
+<area shape="rect" id="Node000001" title="Initializes global address range from received CAN message in preparation for can_display_data." alt="" coords="272,13,435,38"/>
+<area shape="rect" id="Node000002" href="$group__FESCAN.html#ga7368d39e78009c017d6f81ccf33b9b2c" title="CAN message callback that handles communication with the network." alt="" coords="5,5,224,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="258,28,224,28,224,23,258,23"/>
+</map>
