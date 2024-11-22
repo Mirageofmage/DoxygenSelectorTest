@@ -25,6 +25,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           doxygen_version: 1.12.0
           config_file: manual/Doxyfile
+          build_dir: ''
 
       - name: Update version selector
         id: update-version-selector

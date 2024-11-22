@@ -13,7 +13,7 @@ inputs:
   build_dir:
     description: 'Build directory'
     required: false
-    default: 'build'
+    default: ''
   destination_dir:
     description: 'Directory name for deployed docs'
     required: false
