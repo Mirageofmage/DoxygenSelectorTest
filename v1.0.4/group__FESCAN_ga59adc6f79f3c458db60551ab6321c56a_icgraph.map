@@ -1,0 +1,11 @@
+<map id="send_error_security" name="send_error_security">
+<area shape="rect" id="Node000001" title="Configure CAN message to send when SELECT_MEM_PAGE is used." alt="" coords="469,56,620,81"/>
+<area shape="rect" id="Node000002" href="$group__bootloader.html#gad8187b51d3dfb969250f8df9196df1fb" title="Displays requested data over the CAN network." alt="" coords="279,5,414,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="480,55,396,33,398,28,482,50"/>
+<area shape="rect" id="Node000003" href="$group__FESCAN.html#ga7368d39e78009c017d6f81ccf33b9b2c" title="CAN message callback that handles communication with the network." alt="" coords="5,49,224,89"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="455,71,224,71,224,66,455,66"/>
+<area shape="rect" id="Node000004" href="$group__bootloader.html#ga46b61e07cb20a56021eb804fa42f440d" title="Initializes global address range from received CAN message in preparation for can_write_data." alt="" coords="272,107,421,132"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="482,87,398,109,396,104,480,82"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="274,36,207,51,206,46,273,31"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="273,106,206,91,207,86,274,101"/>
+</map>
