@@ -133,41 +133,41 @@ $(function(){initNavTree('md_manual_2How_01To_01Use.html',''); initResizable(tru
 <div class="toc"><h3>Table of Contents</h3>
 <ul>
   <li class="level1">
-    <a href="#autotoc_md22">Bootloader Features</a>
+    <a href="#autotoc_md19">Bootloader Features</a>
   </li>
   <li class="level1">
-    <a href="#autotoc_md23">Configuring Bootloader Builds</a>
+    <a href="#autotoc_md20">Configuring Bootloader Builds</a>
     <ul>
       <li class="level2">
-        <a href="#autotoc_md24">Assigning Serial Number and Module Type</a>
+        <a href="#autotoc_md21">Assigning Serial Number and Module Type</a>
       </li>
     </ul>
   </li>
   <li class="level1">
-    <a href="#autotoc_md25">Configuring Application Builds</a>
+    <a href="#autotoc_md22">Configuring Application Builds</a>
     <ul>
       <li class="level2">
-        <a href="#autotoc_md26">Core/Src/system_stm32l4xx.c (Application)</a>
+        <a href="#autotoc_md23">Core/Src/system_stm32l4xx.c (Application)</a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md27">STM32L433RCTXP_FLASH.ld (Application)</a>
+        <a href="#autotoc_md24">STM32L433RCTXP_FLASH.ld (Application)</a>
       </li>
     </ul>
   </li>
   <li class="level1">
-    <a href="#autotoc_md28">Using the Bootloader</a>
+    <a href="#autotoc_md25">Using the Bootloader</a>
     <ul>
       <li class="level2">
-        <a href="#autotoc_md29">Troubleshooting</a>
+        <a href="#autotoc_md26">Troubleshooting</a>
       </li>
     </ul>
   </li>
   <li class="level1">
-    <a href="#autotoc_md30">Polling Module Information In Application</a>
+    <a href="#autotoc_md27">Polling Module Information In Application</a>
   </li>
 </ul>
 </div>
-<div class="textblock"><h1><a class="anchor" id="autotoc_md22"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md19"></a>
 Bootloader Features</h1>
 <p>The bootloader allows for:</p><ul>
 <li>Starting the programmed application</li>
@@ -176,10 +176,10 @@ Bootloader Features</h1>
 <li>Setting module node number</li>
 </ul>
 <dl class="section note"><dt>Note</dt><dd>The bootloader does not implement an Object Dictionary, and only responds to specific bootloader commands.</dd></dl>
-<h1><a class="anchor" id="autotoc_md23"></a>
+<h1><a class="anchor" id="autotoc_md20"></a>
 Configuring Bootloader Builds</h1>
 <p>The bootloader is configured via the <code><a class="el" href="config_8h.html" title="Configures memory spaces and other boot settings.">config.h</a></code> file located within Core/Inc. The only parameter in this file that should be changed is <code>WRP_ENABLE</code>, which enables write protection over the bootloader on first application launch. Prebuilt binaries of the bootloader will have this flag enabled. Modifying other paramters in this file can cause unexpected behavior within applications. Any applications run via the bootloader must have a matching memory configuration (Application Size, Parameter Location, EEPROM Location and Size). The <a href="https://github.com/COSMIIC-Inc/Implantables-GenericModule-Application">Generic Module</a> is compatible with the standard bootloader.</p>
-<h2><a class="anchor" id="autotoc_md24"></a>
+<h2><a class="anchor" id="autotoc_md21"></a>
 Assigning Serial Number and Module Type</h2>
 <p>The Serial Number and Module Type Idenfitier live in the last three bytes of the assigned bootloader space in flash (Addresses <code>0x08004FFD</code> - <code>0x08004FFF</code>). To prevent unexpected behavior, these parameters should be written to the end of the bootloader <code>.bin</code> image before it gets programmed to the bootloader at address <code>0x08000000</code>.</p>
 <p>The following Matlab script can be used to program these parameters.</p>
@@ -227,16 +227,16 @@ ST_AssignSN.m</summary>
 <div class="line">fclose(fid);</div>
 <div class="line">sprintf(&#39;Write file %s with Serial Number %d and moduleType %d&#39;, bin, SerialNumber, moduleType)</div>
 </div><!-- fragment --> </details>
-<h1><a class="anchor" id="autotoc_md25"></a>
+<h1><a class="anchor" id="autotoc_md22"></a>
 Configuring Application Builds</h1>
 <p>Because the bootloader lives in the first 20K of flash, the flashed application must have changes made to several files in order to ensure correct operation. If you are creating an application based on the <a href="https://github.com/COSMIIC-Inc/Implantables-GenericModule-Application">Generic Module</a>, these changes are already in place.</p>
-<h2><a class="anchor" id="autotoc_md26"></a>
+<h2><a class="anchor" id="autotoc_md23"></a>
 Core/Src/system_stm32l4xx.c (Application)</h2>
 <p>The following changes are made to the <a class="el" href="system__stm32l4xx_8c.html">system_stm32l4xx.c</a> file:</p><ul>
 <li><code>#define USER_VECT_TAB_ADDRESS</code> - is defined</li>
 <li><code>#define VECT_TAB_OFFSET 0x00005000U</code> - changed from 0x00000000U</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md27"></a>
+<h2><a class="anchor" id="autotoc_md24"></a>
 STM32L433RCTXP_FLASH.ld (Application)</h2>
 <p>This is the linker script that defines the addressing of FLASH, RAM, and other important addresses of the microcontroller.</p>
 <p>The only change is made to the <em>Memories definiton</em> section.</p>
@@ -250,7 +250,7 @@ STM32L433RCTXP_FLASH.ld (Application)</h2>
 <p>For a 256K module:</p><ul>
 <li>256K - 20K (bootloader) - 2K (parameter space) - 2K (EEPROM) = 232K</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md28"></a>
+<h1><a class="anchor" id="autotoc_md25"></a>
 Using the Bootloader</h1>
 <p>In Matlab, call <code>rmbootloader(nnp)</code> to open the remote module bootloader program. Clicking 'Scan for Nodes' will probe the network for available nodes.</p>
 <div class="image">
@@ -285,7 +285,7 @@ Selected Node</div></div>
 <div class="image">
 <img src="FinalUploadScreen.png" alt=""/>
 </div>
-    <h2><a class="anchor" id="autotoc_md29"></a>
+    <h2><a class="anchor" id="autotoc_md26"></a>
 Troubleshooting</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -312,7 +312,7 @@ Troubleshooting</h2>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">"Could not confirm Network Status. Toggle Network button to update."   </td><td class="markdownTableBodyNone">- Toggle network button, if that doesn't work, power cycle the access point and reopen rmbootloader.   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md30"></a>
+<h1><a class="anchor" id="autotoc_md27"></a>
 Polling Module Information In Application</h1>
 <p>The bootloader space contains the Serial Number, and Module Type "Identifier" in the last three bytes of its defined space. Their default locations are as follows:</p><ul>
 <li>0x08004FFD - Serial Number High Byte</li>
