@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['how_20to_20use_0',['How To Use',['../md_manual_2How_01To_01Use.html',1,'']]]
+  ['file_0',['Markdown Test File',['../md_CHANGELOG.html',1,'']]]
 ];

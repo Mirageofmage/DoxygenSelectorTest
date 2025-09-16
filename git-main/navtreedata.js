@@ -26,19 +26,23 @@ var NAVTREE =
 [
   [ "NNP STM Bootloader", "index.html", [
     [ "NNP STM Bootloader Documentation", "index.html", "index" ],
+    [ "Markdown Test File", "md_CHANGELOG.html", [
+      [ "Inspiration", "md_CHANGELOG.html#autotoc_md1", null ],
+      [ "License", "md_CHANGELOG.html#autotoc_md2", null ]
+    ] ],
     [ "How To Use", "md_manual_2How_01To_01Use.html", [
-      [ "Bootloader Features", "md_manual_2How_01To_01Use.html#autotoc_md19", null ],
-      [ "Configuring Bootloader Builds", "md_manual_2How_01To_01Use.html#autotoc_md20", [
-        [ "Assigning Serial Number and Module Type", "md_manual_2How_01To_01Use.html#autotoc_md21", null ]
+      [ "Bootloader Features", "md_manual_2How_01To_01Use.html#autotoc_md22", null ],
+      [ "Configuring Bootloader Builds", "md_manual_2How_01To_01Use.html#autotoc_md23", [
+        [ "Assigning Serial Number and Module Type", "md_manual_2How_01To_01Use.html#autotoc_md24", null ]
       ] ],
-      [ "Configuring Application Builds", "md_manual_2How_01To_01Use.html#autotoc_md22", [
-        [ "Core/Src/system_stm32l4xx.c (Application)", "md_manual_2How_01To_01Use.html#autotoc_md23", null ],
-        [ "STM32L433RCTXP_FLASH.ld (Application)", "md_manual_2How_01To_01Use.html#autotoc_md24", null ]
+      [ "Configuring Application Builds", "md_manual_2How_01To_01Use.html#autotoc_md25", [
+        [ "Core/Src/system_stm32l4xx.c (Application)", "md_manual_2How_01To_01Use.html#autotoc_md26", null ],
+        [ "STM32L433RCTXP_FLASH.ld (Application)", "md_manual_2How_01To_01Use.html#autotoc_md27", null ]
       ] ],
-      [ "Using the Bootloader", "md_manual_2How_01To_01Use.html#autotoc_md25", [
-        [ "Troubleshooting", "md_manual_2How_01To_01Use.html#autotoc_md26", null ]
+      [ "Using the Bootloader", "md_manual_2How_01To_01Use.html#autotoc_md28", [
+        [ "Troubleshooting", "md_manual_2How_01To_01Use.html#autotoc_md29", null ]
       ] ],
-      [ "Polling Module Information In Application", "md_manual_2How_01To_01Use.html#autotoc_md27", null ]
+      [ "Polling Module Information In Application", "md_manual_2How_01To_01Use.html#autotoc_md30", null ]
     ] ],
     [ "Topics", "topics.html", "topics" ],
     [ "Classes", "annotated.html", [
